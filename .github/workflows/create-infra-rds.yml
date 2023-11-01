@@ -3,6 +3,8 @@ name: Create Infrastructure RDS
 on:
   workflow_dispatch:
 
+env:
+ TF_CLOUD_ORGANIZATION: "postech-fiap"
 
 jobs:
   terraform-apply-infra:
