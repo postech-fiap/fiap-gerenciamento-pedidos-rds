@@ -1,0 +1,24 @@
+name: Create Infrastructure RDS
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  terraform-apply-infra:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
+   
+      - run: terraform -chdir="./env/dev" init
+        
+      - run: terraform -chdir="./env/dev" apply -auto-approve
+
