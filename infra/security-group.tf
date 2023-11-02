@@ -18,6 +18,6 @@ resource "aws_security_group" "rds_sg" {
     to_port     = 0
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
-    security_groups = aws_security_group.fiap-security-group-app.id
+    security_groups = ["${aws_security_group.fiap-security-group-app.id}"]
   }
 }
