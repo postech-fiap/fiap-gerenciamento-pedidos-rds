@@ -22,3 +22,4 @@ terraform {
       name = "gh-actions"
     }
   }
+}
