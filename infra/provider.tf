@@ -22,7 +22,3 @@ terraform {
       name = "gh-actions"
     }
   }
-}
-provider "aws" {
-  region  = "us-east-1"
-}
