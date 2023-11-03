@@ -11,4 +11,4 @@ Optamos especificamente por MySQL também por uma questão de conhecimento da eq
 
 ## Diagrama de entidade e relacionamento (DER)
 
-<img width="870" alt="Captura de Tela 2023-11-03 às 17 34 27" src="https://github.com/postech-fiap/fiap-gerenciamento-pedidos-rds/assets/22552952/fdf2f6e1-d51a-499f-b357-e2826f807a63">
+<img width="870" alt="Captura de Tela 2023-11-03 às 17 34 27" src="https://github.com/postech-fiap/fiap-gerenciamento-pedidos-rds/assets/22552952/d99ab5ed-6ebb-4be9-a12c-4d39a8859dbc">
