@@ -23,3 +23,7 @@ terraform {
     }
   }
 }
+
+provider "aws" {
+  region  = var.regiao_aws
+}
